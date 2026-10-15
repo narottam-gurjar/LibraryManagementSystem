@@ -1,0 +1,22 @@
+[
+    {
+        "title": "LOTR",
+        "author": "JRR Tolkien",
+        "available": true
+    },
+    {
+        "title": "Harry Potter",
+        "author": "JK Rowling",
+        "available": true
+    },
+    {
+        "title": "Dune",
+        "author": "Frank Herbert",
+        "available": true
+    },
+    {
+        "title": "The Hobbit",
+        "author": "JRR Tolien",
+        "available": true
+    }
+]
