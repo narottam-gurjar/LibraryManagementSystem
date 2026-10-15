@@ -1,64 +1,67 @@
 # Library Management System
 
-A simple Library Management System built with Python to manage books and their availability using JSON file storage.
+A command-line Library Management System built with Python. It supports book management, borrowing and returning books, and persistent storage.
 
 ## Features
 
-- Display all books in the library
-- Add new books and prevent duplicate titles
-- Remove books from the library
+- Add and remove books
+- Display all books
+- Search by title or author
 - Borrow and return books
-- Search for books by title or author
-- Count total and available books
-- Save and load book data using JSON
-- Validate user input and handle missing or corrupted JSON files
+- Count total, available, and borrowed books
+- Prevent duplicate book titles
+- Store book records persistently
 
 ## Technologies Used
 
-- **Language:** Python
-- **Data Storage:** JSON
-- **Version Control:** Git and GitHub
+- Python
+- SQLite (`sqlite3`)
+- JSON
+- Git and GitHub
 
-## Project Structure
+## Project Files
 
-```text
-LibraryManagementSystem/
-├── main.py
-├── books.json
-└── README.md
-```
+- `main.py` — Original JSON-based implementation
+- `books.json` — JSON book data
+- `database.py` — SQLite database setup and practice
+- `library_sqlite.py` — SQLite-based Library Management System
+- `library_app.db` — SQLite database created when the SQLite application runs
 
 ## How to Run
 
-1. Install Python 3 if it is not already installed.
-2. Clone or download this repository.
-3. Open a terminal in the project directory.
-4. Run the application:
+Make sure Python 3 is installed.
+
+Run the original JSON version:
 
 ```bash
 python main.py
 ```
 
-5. Follow the menu displayed in the terminal.
+Run the SQLite version:
+
+```bash
+python library_sqlite.py
+```
 
 ## What I Learned
 
-- Python classes and objects
-- Functions, loops, and conditional statements
-- Lists and dictionaries
-- File handling with JSON
-- Exception handling and input validation
+- Python functions, classes, and objects
+- File handling and JSON
+- SQL CRUD operations
+- SQLite database connections
+- Input validation and error handling
 - Git version control and GitHub
 
 ## Future Improvements
 
-- Add a graphical user interface
-- Introduce member accounts
-- Add book IDs and due dates
-- Use a database such as SQLite
+- Add book IDs to search and remove books
+- Add library member accounts
+- Introduce book due dates
+- Add automated tests
+- Build a graphical user interface
 
 ## Author
 
-**Narottam Singh Gurjar**
+Narottam Singh Gurjar
 
 GitHub: [@narottam-gurjar](https://github.com/narottam-gurjar)
